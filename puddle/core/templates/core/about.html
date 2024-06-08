@@ -1,0 +1,42 @@
+{% extends 'core/base.html' %}
+
+{% block title %}About KM Market{% endblock %}
+{% block content %}
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-6">About KM Market</h1>
+  <div class="bg-white p-6 rounded-lg shadow-lg">
+    <p class="mb-4">
+      Welcome to <strong>KM Market</strong>, your trusted online marketplace specifically designed for the residents and students of KU. Our platform aims to facilitate direct transactions between buyers and sellers, eliminating the need for middlemen.
+    </p>
+    <p class="mb-4">
+      At KM Market, we understand the unique needs and challenges faced by the KU community. Our mission is to provide a safe reliable, and easy to use platform where you can sell and purchase items directly from one another.
+    </p>
+    <p class="mb-4">
+      Whether you're looking to buy textbooks, funiture, electronics, or any other goods, KM market is the place for you. By connecting buyers and sellers directly, we ensure that you get the best deals without unnecessary markups.
+    </p>
+    <p class="mb-4">
+      Join our growing community today and experience the benefits of trading directly with fellow KM residents and KU students. Together we can create a more efficient and cost effective marketplace for everyone.
+    </p>
+    <p class="text-xl font-semibold">
+      Why choose KM Market?
+    </p>
+    <ul class="list-disc list-inside mb-4">
+      <li>Eliminate middlemen and reduce costs.</li>
+      <li>Trusted community of KU residents and students.</li>
+      <li>Wide range of items for sale</li>
+      <li>Secure and user-friendly platform</li>
+
+    </ul>
+
+    <p>
+      Thank you for choosing KM Market. We look forward to serving you!
+    </p>
+    <a href="{% url 'core:contact' %}" class="text-lg text-teal-500 hover:underline">Contact Us</a>
+
+  </div>
+
+</div>
+
+
+
+{% endblock %}

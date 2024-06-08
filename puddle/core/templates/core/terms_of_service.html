@@ -1,0 +1,47 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Terms of Service{% endblock %}
+{% block content %}
+<div class="container mx-auto px-6 py-8">
+  <h1 class="text-3xl font-bold mb-6">Terms of Service</h1>
+  <div class="bg-white p-6 rounded-lg shadow-lg">
+    <p class="mb-4">
+      Welcome to KM Market. These terms and conditions outline the rules and regulations for the use of our website.
+    </p>
+    <h2 class="text-2xl font-semibold mb-4">Introduction</h2>
+    <p class="mb-4">
+      By accessing this website we assume you accept these terms and conditions. Do not continue to use KM Market if you do not agree to all of the terms and conditions stated on this page.
+    </p>
+    <h2 class="text-2xl font-semibold mb-4">License</h2>
+    <p class="mb-4">
+      Unless otherwise stated, KM market and/or its licensors own the intellectual property rights for all material on KM Market. All intellectual property rights are reserved. You may access this from KM Market for your own personal use subjected to restrictions set in the terms and conditions.
+    </p>
+    <ul class="list-disc list-inside mb-4">
+      <li>You must not republish material from KM Market</li>
+      <li>You must not sell, rent, or sublicense materials from KM Market</li>
+      <li>You must not reproduce, duplicate or copy materials from KM Market</li>
+      <li>You must not redistribute content from KM Market</li>
+
+    </ul>
+    <h2 class="text-2xl font-semibold mb-4">User Comments</h2>
+    <p class="mb-4">
+      This agreement shall begin on the date hereof. Parties of these website offers an opportunity for uses to exchange and post opinions and information in certain areas of the website. KM Market does not filter, edit, publish or review comments prior to their presence on the website. Comments do not reflect the views and opinions of KM Market, its agents and/or its affiliates. Comments reflects the views and opinions of those who post their views and opinions. To the extent permitted by applicale laws, KM Market shall not be liable for the comments or any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of of and/or appearance of the comments on this website.
+    </p>
+    <p class="mb-4">
+      KM Market reserves the right to monitor all comments and to remove any comments which can be considered inappropriate, offensive or causes breach of these terms and conditions.
+
+    </p>
+    <p class="mb-4">
+      You warrant and represent that:
+    </p>
+    <ul class="list-disc list-inside mb-4">
+      <li>You are entitled to post on our website and have all necessary licenses and consents to do so;</li>
+      <li>The commments/messages do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful materials which is an invasion of privacy</li>
+    </ul>
+
+  </div>
+  <a href="{% url 'core:contact' %}" class="text-lg text-teal-500 hover:underline">Contact Us</a>
+
+</div>
+
+{% endblock %}

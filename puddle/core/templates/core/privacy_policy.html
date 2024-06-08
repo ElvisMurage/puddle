@@ -1,0 +1,41 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Privacy Policy{% endblock %}
+{% block content %}
+
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold mb-6">Privacy Policy</h1>
+  <div class="bg-white p-6 rounded-lg shadow-lg">
+    <p class="mb-4">
+      At KM Market, we are committed to protecting your privacy. This privacy policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+    </p>
+    <h2 class="text-2xl font-semibold mb-4">Information We Collect</h2>
+    <p class="mb-4">
+      We may collect information about you in a variety of ways. The information we may collect on the Site includes:
+    </p>
+    <ul class="list-disc list-inside mb-4">
+      <li><strong>Personal Data:</strong>Personally identifiable information, such as your name, email address and telephone number, and demographic information, such as you age, gender, hometown, and interests that you voluntarily give to us when you registe with the site or when you choose to participate in various activities related to the site, such as online chat message boards.</li>
+      <li><strong>Derivative Data:</strong>Information our servers automatically collect when you access the Site, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Site</li>
+
+    </ul>
+    <h2 class="text-2xl font-semibold mb-4">Use of your information</h2>
+    <p class="mb-4">
+      We may share information we have collected about you in certian situations. Your information may be disclosed as follows:
+    </p>
+    <ul class="list-disc list-inside mb-4">
+      <li><strong>By Law or to Protect Rights:</strong>If we believe the release of  information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by an application law, rule or regulation.</li>
+      <li><strong>Business Transfers:</strong>We may share of transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisiton of all of a portion of our business to another Company.</li>
+      <li><strong>Third-Party Service Providers:</strong>We may share your information with third parties that perform services for us or on our behalf. including payment processing, data analysis, email delivery, hosting services, customer service and marketing assistance</li>
+
+    </ul>
+    <h2 class="text-2xl font-semibold mb-4">Security of Your Information</h2>
+    <p class="mb-4">
+      We use administrative, techinical, and physical security measures to help protect your personal information. While we have taken reasonble steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measurs are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse
+    </p>
+    <a href="{% url 'core:contact' %}" class="text-lg text-teal-500 hover:underline">Contact Us</a>
+
+  </div>
+
+</div>
+
+{% endblock %}
